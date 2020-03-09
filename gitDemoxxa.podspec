@@ -30,8 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'gitDemoxxa/Classes/**/*'
-  
+  #s.source_files = 'gitDemoxxa/Classes/**/*'
+  s.vendored_frameworks = 'gitDemoxxa/Classes/*.framework'
   # s.resource_bundles = {
   #   'gitDemoxxa' => ['gitDemoxxa/Assets/*.png']
   # }
