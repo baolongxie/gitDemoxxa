@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'gitDemoxxa_Example' do
+  pod 'gitDemoxxa', :path => '../'
+
+  target 'gitDemoxxa_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
