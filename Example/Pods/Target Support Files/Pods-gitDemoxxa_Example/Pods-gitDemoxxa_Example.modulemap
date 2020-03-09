@@ -1,0 +1,6 @@
+framework module Pods_gitDemoxxa_Example {
+  umbrella header "Pods-gitDemoxxa_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

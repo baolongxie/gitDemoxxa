@@ -1,0 +1,6 @@
+framework module GitDemo {
+  umbrella header "GitDemo.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module gitDemoxxa {
+  umbrella header "gitDemoxxa-umbrella.h"
+
+  export *
+  module * { export * }
+}
